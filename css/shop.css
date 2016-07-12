@@ -1,0 +1,199 @@
+.daohang{
+    width: 1200px;
+    height: 40px;
+    padding: 10px 10px 10px 0;
+    float: left;
+    /*background: blue;*/
+
+}
+
+.sanjiao1{
+    width:0;
+    height:0;
+    border-top:10px solid red;
+    border-left:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:10px solid transparent;
+    margin-left: 30px;
+
+}
+.sanjiao2{
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:10px solid black;
+    border-right:10px solid transparent;
+    margin-left: 30px;
+    cursor: pointer
+}
+.item1{
+    width: 1200px;
+    height: 200px;
+    border-bottom: 1px solid #F5F5F5;
+}
+h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.daohang>.hrside{
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 200px;
+    height: 45px;
+
+}
+
+.daohang>.hrside a{
+    line-height: 45px;
+    font-size: 14px;
+    color: #808080;
+    padding: 0 5px 0 5px;
+}
+.clothes{
+    width: 1200px;
+}
+.clothesl{
+    width: 130px;
+    height: 500px;
+    /*background: blue;*/
+    float: left;
+}
+.clothesc{
+    width: 470px;
+    height: 500px;
+    /*background: red;*/
+    float: left;
+}
+.clothesr{
+    width: 600px;
+    height: 500px;
+    /*background: yellow;*/
+    float: left;
+}
+
+#pccshow{
+    display: block;
+}
+.pc{
+    width: 450px;
+    height:450px;
+    display: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.plshow{
+    width: 78px;
+    height: 78px;
+    margin: 2px;
+    cursor: pointer
+}
+
+.plhide{
+    position: absolute;
+    display: none;
+}
+.sale{
+    width: 600px;
+    height: 80px;
+    margin-top: 20px;
+    text-align: left;
+    /*background: blue;*/
+}
+.sale span{
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #B71A21;
+}
+.sale p{
+    margin-top: 20px;
+}
+.color1{
+    width: 540px;
+    height:80px;
+    /*background: blue;*/
+    margin-top: -40px;
+    float:right;
+}
+
+.color2{
+    height: 15px;
+    width: 60px;
+    float: left;
+    /*background: blue;*/
+    margin: 6px;
+    border: 1px solid #F5F5F5;
+    padding: 10px;
+    text-align: center;
+}
+
+.color2 strong{
+    cursor: pointer;
+}
+.chima{
+    margin-top: 120px;
+    width: 500px;
+    height: 60px;
+    /*background: blue;*/
+}
+
+.chima li{
+    float: left;
+    margin: 8px;
+    border: 1px solid #F5F5F5;
+    padding:5px 10px;
+    cursor: pointer;
+}
+.item2{
+    height: 30px;
+    width: 500px;
+    float: left;
+    /*background: blue;*/
+}
+.item2 li{
+    float: left;
+    margin: 10px;
+    padding:5px 10px;
+    cursor: pointer;
+    border: 1px solid #F5F5F5;
+}
+.item3{
+    height: 30px;
+    width: 500px;
+    margin-top: 40px;
+    /*background: blue;*/
+}
+.item3 li{
+    margin:10px 10px 10px 5px;
+    padding:5px 10px;
+    float: left;
+}
+
+.buy{
+    margin-top: 20px;
+    height: 36px;
+    width: 500px;
+}
+
+.buy1{
+    height: 36px;
+    width: 200px;
+    margin: 20px;
+    background: #F7ABAF;
+    float: left;
+    text-align: center;
+    border: 1px solid #B81C22;
+    cursor: pointer;
+}
+
+.buy1 strong{
+    margin: 10px 0;
+    display: block;
+    font-size: 14px;
+    color: #A50309;
+}
